@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    color: white;
+    background: #080808fb;
+  }
+
+  .title {
+    font-size: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+  img {
+    width: 100%;
+  }
+
+
+.flex-container {
+    display: flex;
+  
+    /*this centers the text horizontally*/
+    justify-content: center;
+  
+    /*this centers the text vertically*/
+    align-items: center;
+  
+    height: 200px;
+    font-size: 1.2rem;
+  }
+
+  .button {
+    font-size: 2rem;
+    padding: 3% 5% 3%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fcc203;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.5);
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  html {
+      font-size: 62.5%;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  li {
+      list-style: none;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+
+  .header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: #fcc203;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #475569;
+}
+
+.nav-link:hover{
+  color: white;
+}
+
+.nav-logo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: black;
+}
